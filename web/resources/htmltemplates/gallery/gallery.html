@@ -1,0 +1,18 @@
+<script type="text/html" id="gallery-from-moustache">
+    <div id="gallery">
+        <h5 id="gallery-showcase-header"> {{showcase.header}} </h5>
+        <div id="carousel">
+            {{#showcase.imageDetails}}
+            <img src="{{imageResourceLocation}}" alt="{{imageTag}}" />
+            {{/showcase.imageDetails}}
+        </div>
+        <h5 id="gallery-all-picture-header">{{allPictures.header}}</h5>
+        <div id="all-pictures">
+            <p>
+                {{#allPictures.imageDetails}}
+                <a class="fancybox" href="{{imageBigResourceLocation}}" data-fancybox-group="gallery" title="{{imageBigTag}}"><img src="{{imageSmallResourceLocation}}" alt="" /></a>
+                {{/allPictures.imageDetails}}
+            </p>
+        </div>
+    </div>
+</script>

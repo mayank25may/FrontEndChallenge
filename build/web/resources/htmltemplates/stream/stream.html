@@ -1,0 +1,33 @@
+<script type="text/html" id="stream-from-moustache">
+    <div id="stream">
+        <h4 id="stream-header">
+            {{header}}
+        </h4>
+        <ul id="stream-content">
+            {{#streamDetails}}
+            <li class="stream-item">
+                
+                <div class="{{profilePicClass}}"></div>
+                <div class="circle"></div>
+                {{#isMediaTypeText}}
+                <div class="arrow-left"></div>
+                <div class="stream-item-content">
+                    {{text}}
+                </div>
+                {{/isMediaTypeText}}
+
+                {{#isMediaTypeVideo}}
+                <video class="stream-video" controls>
+                    <source src="{{videoSourceLocation}}" type="{{videoType}}">
+                </video>
+                {{/isMediaTypeVideo}}
+
+                {{#isMediaTypeImage}}
+                <div class="{{imageClass}}"></div>
+                {{/isMediaTypeImage}}
+
+            </li>
+            {{/streamDetails}}
+        </ul>
+    </div>
+</script>
