@@ -83,7 +83,7 @@
     <div id="container">
         <div id="container-inside-border">
             <div id="menu">
-                <a id="tab-menu-home-logo-active" href="#home/"></a>
+                <a id="tab-home" class="tab-menu-home-logo-active" href="#home/"></a>
                 <a id="tab-stats" class="tab-others" href="#stats/">Stats</a>
                 <a id="tab-stream" class="tab-others" href="#stream/">Stream</a>
                 <a id="tab-gallery" class="tab-others" href="#gallery/">Gallery</a>

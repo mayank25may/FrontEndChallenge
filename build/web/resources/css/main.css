@@ -66,8 +66,21 @@ body{
     border-bottom-width: 3px;
 }
 
-#tab-menu-home-logo-active{
+.tab-menu-home-logo-active{
     background-image: url(../images/home.png);
+    height: 45px;
+    z-index: 1;
+    background-position: -100px -177px;
+    cursor: pointer;
+    width: 45px;
+    border-right-style: solid;
+    border-right-color:  #4c4e5a;
+    border-right-width: 1px;
+    float: left;
+}
+
+.tab-menu-home-logo-in-active{
+    background-image: url(../images/home-inactive.png);
     height: 45px;
     z-index: 1;
     background-position: -100px -177px;

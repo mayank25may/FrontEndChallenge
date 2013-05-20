@@ -35,6 +35,7 @@ App.AppRouter = Backbone.Router.extend({
     
     home : function(){
         App.Helpers.toggleTabHighlight();
+        $('#tab-home').removeClass('tab-menu-home-logo-in-active').addClass('tab-menu-home-logo-active');
         
         //instantiating HomeModel 
         var homeModel = new App.Home.HomeModel();
