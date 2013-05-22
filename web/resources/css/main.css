@@ -173,8 +173,8 @@ body{
 #home-content {
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left:auto; /* this is half the height of your div*/  
-    margin-right:auto; /*this is half of width of your div*/
+    margin-left:auto;
+    margin-right:auto;
     height: 250px;
     width: 600px;
     background-image: url(../images/background.png);
@@ -375,8 +375,8 @@ ul{
 #all-pictures{
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left:auto; /* this is half the height of your div*/  
-    margin-right:auto; /*this is half of width of your div*/
+    margin-left:auto;
+    margin-right:auto;
     height:auto;
     width: 500px;
     background-image: url(../images/wood.jpg);
@@ -388,7 +388,7 @@ ul{
 }
 
 .fancybox{
-    padding-left: 10px;
+    padding-left: 5px;
     padding-top: 10px;
 }
 

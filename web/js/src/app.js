@@ -20,14 +20,11 @@ $(function() {
         
         //a genric close implemented in Backbone.View
         Backbone.View.prototype.close = function () {
-            if (this.beforeClose) {
-                this.beforeClose();
-            }
             this.remove();
             this.unbind();
         };
         
-        //inistintiate the AppRouter
+        //instantiate the AppRouter
         App.appRouter = new App.AppRouter();
         
         //Call method start inside approuter Object
